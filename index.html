@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
-    <script src ="styles.css" ></script>
-    <script src="main.js"></script>
+    <title>Image Gallery</title>  
+    <script src="main.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body>
-    
+<body class="bg-[#212121]">
+    <div class="container">
+        <button><i class="fa-solid fa-caret-left"></i></button>
+        <div class="imagecontainer">
+            <img src="images/image-1.png">
+            <img src="images/image-2.png">
+            <img src="images/image-3.png">
+            <img src="images/image-4.png">
+            <img src="images/image-5.png">
+            <img src="images/image-6.png">
+        </div>
+        <button><i class="fa-solid fa-caret-right"></i></button>
+    </div>
 </body>
 </html>
