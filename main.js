@@ -8,8 +8,8 @@ gallery.addEventListener('wheel',(e)=>{
 })
 
 left.addEventListener('click',()=>{
-    gallery.scrollLeft += -300;
+    gallery.scrollLeft += -400;
 })
 right.addEventListener('click',()=>{
-    gallery.scrollLeft  += 300;
+    gallery.scrollLeft  += 400;
 })
