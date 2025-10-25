@@ -8,18 +8,38 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-<body class="bg-[#212121]">
-    <div class="container">
-        <button><i class="fa-solid fa-caret-left"></i></button>
-        <div class="imagecontainer">
-            <img src="images/image-1.png">
-            <img src="images/image-2.png">
-            <img src="images/image-3.png">
-            <img src="images/image-4.png">
-            <img src="images/image-5.png">
-            <img src="images/image-6.png">
-        </div>
-        <button><i class="fa-solid fa-caret-right"></i></button>
+<body class="bg-[#212121] ml-[20%] flex items-center h-screen relative">
+  
+  <!-- Left button -->
+  <button class=" absolute left-[-5%] bg-[#FD6753] w-12 h-12 rounded-full flex items-center justify-center z-10">
+    <i class="fa-solid fa-caret-left text-white"></i>
+  </button>
+<div class="w-[900px] h-[400px] flex gap-10 overflow-y-hidden overflow-x-hidden snap-mandatory scroll-smooth py-5 items-center">
+    <div class="min-w-[300px] h-full shrink-0 hover:scale-110 transition-transform my-5">
+      <img src="images/image-1.png" class="w-full h-full object-cover grayscale hover:grayscale-0">
     </div>
+    <div class="min-w-[300px] h-full shrink-0 hover:scale-110 transition-transform my-5">
+      <img src="images/image-2.png" class="w-full h-full object-cover grayscale hover:grayscale-0">
+    </div>
+    <div class="min-w-[300px] h-full shrink-0 hover:scale-110 transition-transform my-5">
+      <img src="images/image-3.png" class="w-full h-full object-cover grayscale hover:grayscale-0">
+    </div>
+    <div class="min-w-[300px] h-full shrink-0 hover:scale-110 transition-transform my-5">
+      <img src="images/image-4.png" class="w-full h-full object-cover grayscale hover:grayscale-0">
+    </div>
+    <div class="min-w-[300px] h-full shrink-0 hover:scale-110 transition-transform my-5">
+      <img src="images/image-5.png" class="w-full h-full object-cover grayscale hover:grayscale-0">
+    </div>
+    <div class="min-w-[300px] h-full shrink-0 hover:scale-110 transition-transform my-5">
+      <img src="images/image-6.png" class="w-full h-full object-cover grayscale hover:grayscale-0">
+    </div>
+  </div>
+  
+  <button class="absolute right-[21%] bg-[#FD6753] w-12 h-12 rounded-full flex items-center justify-center z-10">
+    <i class="fa-solid fa-caret-right text-white"></i>
+  </button>
+
 </body>
+
+
 </html>
